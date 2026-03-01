@@ -15,7 +15,24 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+answer = input("Would you like a compliment? ")
 
+
+if answer.lower() == "yes":
+    print("You have wonderful eyes.")
+    print("Thank you for playing.")
+
+if answer.lower() == "y":
+    print("No compliment for you!")
+    print('Thanks for playing')
+                    
+if answer.upper() == "Yes":
+    print("No compliment for you!")
+    print('Thanks for playing')
+                                 
+if answer.lower() == "no":
+     print("No compliment for you!")
+     print('Thanks for playing')
 
 
 
